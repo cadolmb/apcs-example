@@ -23,4 +23,5 @@
 * git log -> Enter to move down, q to quit
 
 ## Problems
-commit without -m -> escape :wq
+* commit without -m -> Use Esc :wq to quit Vim
+* wrong message -> git commit --amend -m "New message"
