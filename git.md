@@ -8,6 +8,9 @@
 ## Project Setup
 
 `git init`
+`touch .gitignore`
+Add `*.class` to .gitignore
+
 
 ## 3 Step Repeating Commit Process
 1. Make Changes to code
@@ -15,17 +18,14 @@
 3. Commit changes with a message
 
 ## Commands
-
 * status -> tell me what files have been staged or committed
 * add -> add a file to the stage
 * rm --cached -> remove file from stage
 * git commit -m "Present tense description of what happened"
 * git log -> Enter to move down, q to quit
 * git checkout -- filename -> discard chages (must be unstaged)
+* git checkout (commit id) -> go to previous commit state
 
 ## Problems
 * commit without -m -> Use Esc :wq to quit Vim
 * wrong message -> git commit --amend -m "New message"
-
-
-adfkasdfkljaslkdfjaslkdfja;sdfkja;slkdfja;slkdfj;sklafjd;lkasdfj;lakfj
